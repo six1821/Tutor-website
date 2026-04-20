@@ -105,7 +105,7 @@
                     Divedeep into the world of creativity and learn to craft
                     stunning videos that captivate your audience. 
                 </p>
-                <a href="#" class="btn">29$ Get Course</a>
+                <a href="#" class="btn" id="openPricing"></a>>29$ Get Course</a>
             </div>
             <img src="Images/header-course.png" alt="hero">
         </div>
@@ -472,7 +472,7 @@
                                 Tutor is probably one of the best video courses on landing page
                                 making in the web industry
                             </p>
-                            <a href="#" class="btn">Get The Course</a>
+                            <a href="#" class="btn" id="openPricing"></a>>Get The Course</a>
                         </div>
                     </div>
                 </section>
@@ -489,6 +489,133 @@
                                 <input type="email" name="email" id="email" placeholder="Enter your email" />
                                 <button type="submit" class="btn">Subscribe</button>
                             </form>
+                        </div>
+                    </section>
+
+
+                    <div class="modal" id="detailsModal">
+                        <div class="modal-content">
+                    
+                            <span class="close-btn">&times;</span>
+                    
+                            <h2>Course Details (Full Info)</h2>
+                            <p>
+                                Here you can write the full detailed explanation of your course.
+                                You can include paragraphs, images, lists, etc.
+                            </p>
+                    
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="modal" id="blogModal">
+                        <div class="modal-content">
+                    
+                            <span class="close-btn" id="closeBlog">&times;</span>
+                    
+                            <h2 id="blogTitle"></h2>
+                            <p id="blogContent"></p>
+                    
+                        </div>
+                    </div>
+
+
+
+                    <div class="modal" id="pricingModalBox">
+                        <div class="modal-content pricing-content">
+                    
+                            <span class="close-btn" id="closePricing">&times;</span>
+                    
+                            <h2>Choose Your Course Plan</h2>
+                    
+                            <div class="pricing-grid">
+                    
+                                <div class="pricing-card">
+                                    <h3>Basic</h3>
+                                    <p class="price">$29</p>
+                                    <ul>
+                                        <li>Access to core lessons</li>
+                                        <li>Basic resources</li>
+                                        <li>Email support</li>
+                                    </ul>
+                                    <button class="btn">Start Basic</button>
+                                </div>
+                    
+                                <div class="pricing-card featured">
+                                    <h3>Pro</h3>
+                                    <p class="price">$59</p>
+                                    <ul>
+                                        <li>Everything in Basic</li>
+                                        <li>Advanced tutorials</li>
+                                        <li>Project files</li>
+                                    </ul>
+                                    <button class="btn">Start Pro</button>
+                                </div>
+                    
+                                <div class="pricing-card">
+                                    <h3>Premium</h3>
+                                    <p class="price">$99</p>
+                                    <ul>
+                                        <li>Everything in Pro</li>
+                                        <li>1-on-1 mentorship</li>
+                                        <li>Certificate</li>
+                                    </ul>
+                                    <button class="btn">Start Premium</button>
+                                </div>
+                    
+                            </div>
+                    
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <!-- Blog Section -->
+                    <section class="blog section" id="blog">
+                        <div class="container">
+                    
+                            <div class="section-header">
+                                <h2>Latest Blog Posts</h2>
+                                <div class="header-border"></div>
+                                <p>Stay updated with tutorials, insights, and learning tips.</p>
+                            </div>
+                    
+                            <div class="blog-grid">
+                    
+                                <!-- Blog Card 1 -->
+                                <div class="blog-card">
+                                    <h3>Getting Started with HTML & CSS</h3>
+                                    <p>
+                                        Learn the basics of building websites using HTML structure and CSS styling...
+                                    </p>
+                                    <button class="read-more-btn" data-blog="1">Read More</button>
+                                </div>
+                    
+                                <!-- Blog Card 2 -->
+                                <div class="blog-card">
+                                    <h3>Understanding Flexbox Layouts</h3>
+                                    <p>
+                                        Flexbox makes layout design easier by aligning and distributing space...
+                                    </p>
+                                    <button class="read-more-btn" data-blog="2">Read More</button>
+                                </div>
+                    
+                                <!-- Blog Card 3 -->
+                                <div class="blog-card">
+                                    <h3>Responsive Design Basics</h3>
+                                    <p>
+                                        Learn how to make websites work on mobile, tablet, and desktop devices...
+                                    </p>
+                                    <button class="read-more-btn" data-blog="3">Read More</button>
+                                </div>
+                    
+                            </div>
                         </div>
                     </section>
 
@@ -533,5 +660,19 @@
                     </footer>
 
     <script src="JS/script.js"></script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/69e21cada1e86d1c31abcbc7/1jmdk0234';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 </body>
 </html>
